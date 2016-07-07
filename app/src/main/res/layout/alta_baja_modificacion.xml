@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e3e3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText3" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText5" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText6" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText8"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText8" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText9"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText9" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText10"
+            android:padding="10dp"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText10" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText11" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText12"
+            android:background="@drawable/borde"
+            android:layout_margin="10dp"
+            android:hint="@string/editText12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="204dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:id="@+id/button2"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/button3"
+                android:layout_alignStart="@+id/button3"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baja"
+                android:id="@+id/button3"
+                android:layout_above="@+id/button2"
+                android:layout_centerHorizontal="true"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="bottom|center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

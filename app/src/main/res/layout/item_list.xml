@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:padding="@dimen/activity_vertical_margin"
+        android:id="@+id/listBiblio"
+        android:textColor="#FF040404"
+        android:textAlignment="gravity"
+        android:gravity="left"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:padding="@dimen/activity_vertical_margin"
+        android:id="@+id/listEstado"
+        android:gravity="left"
+        android:layout_marginBottom="8dp"
+        android:textColor="#FF040404"
+        android:textAlignment="gravity" />
+</LinearLayout>

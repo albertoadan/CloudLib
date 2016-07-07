@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bits.test.MainActivity">
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_reservas"
+        android:orderInCategory="100"
+        android:title="Mis reservas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sanciones"
+        android:orderInCategory="100"
+        android:title="Mis sanciones"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_prestamo"
+        android:orderInCategory="100"
+        android:title="Mis prestamos"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_usuario"
+        android:orderInCategory="100"
+        android:title="Mi usuario"
+        app:showAsAction="never"/>
+</menu>

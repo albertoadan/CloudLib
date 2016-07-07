@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">CloudLib</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navegacion">navegacion</string>
+    <string name="title_activity_reservas">Reservas</string>
+    <string name="title_activity_sanciones_reservas">Sanciones_reservas</string>
+    <string name="title_activity_alta_baja_modificacion">Alta_baja_modificacion</string>
+
+    <!--strings de la activity main
+    !-->
+    <string name="ingresar">INGRESAR</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="textview14">Usuario no resgistrado, clicka Registrar</string>
+    <string name="textview2">Usuario</string>
+    <string name="edittext">Nombre de usuario</string>
+    <string name="textview3">Password</string>
+    <string name="edittext2">Introduce tu Password</string>
+    <string name="toolbar_registro" >Registro de Usuario</string>
+    <string name="mail_incorrecto">E-mail de usuario incorrecto</string>
+
+    <!--strings de la activity alta-baja-modificacion
+    !-->
+    <string name="boton_baja" >BAJA</string>
+    <string name="editText3">D.N.I./N.I.F.</string>
+    <string name="editText4">Nombre</string>
+    <string name="editText5">Apellidos</string>
+    <string name="editText6">Dirección</string>
+    <string name="editText7">Codigo Postal</string>
+    <string name="editText8">Población</string>
+    <string name="editText9">Teléfono</string>
+        <string name="editText10">e-mail</string>
+        <string name="editText11">Contraseña</string>
+    <string name="editText12">Repetir Contraseña</string>
+    <string name="toast_dni_incorrecto">Ha introducido un DNI/CIF/NIE no correcto.</string>
+    <string name="toast_codigoPostal">Codigo postal incorrecto</string>
+    <string name="boton_modificar">MODIFICAR</string>
+    <string name="dialog_title">Confirmación</string>
+    <string name="dialog_message">¿Estas seguro?</string>
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
+
+    <!--strings de la activity reservas
+   !-->
+    <string name="textView6">ISBN</string>
+     <string name="textView7">Título</string>
+     <string name="textView8">Autor</string>
+     <string name="textView9">Género</string>
+     <string name="textView10">Editorial</string>
+     <string name="textView11">Edición</string>
+     <string name="textView12">Biblioteca</string>
+     <string name="textView13">Sección</string>
+    <string name="editText14">Codigo del Libro</string>
+    <string name="editText15">Título del libro</string>
+    <string name="editText16">Escritor del libro</string>
+    <string name="editText17">Tipo de género literario</string>
+    <string name="editText18">Empresa editora del libro</string>
+    <string name="editText19">Edición del libro</string>
+    <string name="editText20">Biblioteca en la que encontrar el libro</string>
+    <string name="editText21">Sección de la Biblioteca</string>
+    <string name="button7_reserva">RESERVAR</string>
+    <string name="button7_prestamo">PRESTAMO</string>
+    <string name="button8">CANCELAR</string>
+    <string name="toolbar_reservas">Reservas</string>
+    <string name="fechaReserva">Fecha reserva</string>
+    <string name="toast_reserva">Reserva realizada con éxito</string>
+
+    <!--strings de la activity sanciones
+ !-->
+    <string name="toolbar_sanciones">Sanciones</string>
+    <string name="textView4">Texto explicativo de la sanción correspondiente a una fecha o fecha a partir de la cual se podrá reservar por sanciones</string>
+    <string name="SancionUsuario">Sanción</string>
+    <string name="titulo_del_libro">Título del libro</string>
+    <string name="fechaSancion">Fecha Sanción</string>
+    <string name="fechaVencimiento">Fecha vencimiento</string>
+    <string name="estado">Estado: </string>
+    <string name="toast_offline">Dato no disponible offline</string>
+
+    <!--strings de la activity navegación
+!-->
+    <string name="toolbar_nav" >Búsqueda</string>
+    <string name="buton5" >BUSQUEDA</string>
+    <string name="editText13">Nombre del objeto a buscar</string>
+    <string name="listview" >Biblioteca</string>
+    <string name="direccion">Dirección</string>
+    <string name="biblioteca">Biblioteca</string>
+    <string name="edicion">Edición</string>
+    <string name="editorial">Editorial</string>
+    <string name="autor">Autor</string>
+    <string name="descripcion">Descripción</string>
+    <string name="titulo">Título</string>
+    <string name ="toast_isbn_incorrecto">ISBN incorrecto</string>
+
+    <!--Opciones del spinner  -->
+    <string-array name="spinner_busqueda">
+        <item>Título</item>
+        <item>ISBN</item>
+        <item>Autor</item>
+        <item>Editorial</item>
+    </string-array>
+
+    <!--strings de la toast
+!-->
+    <string name="toast_contrasena">No coinciden las contraseñas</string>
+    <string name="toast_registrado">Usuario registrado/modificado con éxito</string>
+    <string name="toast_faltan_Datos">Faltan datos, comprueba los campos</string>
+    <string name="toast_conexion">No se puede realizar sin conexión a internet</string>
+    <string name="toast_bloqueado">Usuario bloqueado, contacte con administrador</string>
+    <string name="toast_no_registrado">Usuario no registrado, registrese para continuar</string>
+    <string name="toast_navegacion">Introduzca lo que desea buscar</string>
+    <string name="toast_listView_vacio">No hay datos a mostrar</string>
+    <string name="toast_maximo_reservas">Ha llegado al máximo de reservas permitidas</string>
+    <string name="toast_maximo_prestamo">Solo se puede tener un prestamo activo</string>
+    <string name="toast_noLibro">No se ha encontrado ningún libro que coincida</string>
+    <string name="toast_reservaActiva">Ya tienes una reserva activa de ejemplares de este libro</string>
+    <string name="toast_noEjemplares">No hay ejemplares disponibles</string>
+    <string name="toast_usuarioBaja">El usuario ha sido dado de baja</string>
+    <string name="toast_error">Se ha producido un error</string>
+    <string name="toast_modo_visualizar">No se puede reservar en modo visualizar</string>
+    <string name="toast_baja">Usuario dado de baja con éxito</string>
+
+
+    <!--strings de prestamos
+  !-->
+    <string name="toolbar_prestamo">Prestamos</string>
+    <string name="fechaPrestamo">Fecha Prestamo</string>
+
+
+
+
+</resources>
